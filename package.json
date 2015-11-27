@@ -1,0 +1,16 @@
+{
+  "name": "CodingTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Espen Holmen",
+  "dependencies": {
+    "body-parser": "~1.4.3",
+    "express": "~4.6.1",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4",
+    "method-override": "~2.1.1",
+    "mongoose": "~3.8.13",
+    "morgan": "~1.1.1"
+  }
+}
