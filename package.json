@@ -1,7 +1,7 @@
 {
   "name": "CodingTest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Angular Coding Test",
   "main": "server.js",
   "author": "Espen Holmen",
   "license": "MIT",
