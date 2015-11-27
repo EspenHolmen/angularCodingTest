@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="CodingTest">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angular Coding Test</title>
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/angular-toastr/dist/angular-toastr.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+
+    <script src="/angular/angular.min.js"></script>
+    <script src="/angular-animate/angular-animate.min.js"></script>
+    <script src="/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+
+
+<body>
+<div class="container">
+
+    <!-- HEADER AND TODO COUNT -->
+    <div class="jumbotron">
+        <h1>Welcome</h1>
+        <ol>
+            <li>Build a screen where you can list out existing users</li>
+            <li>Add a function for adding a new user</li>
+            <li>Add a function for editing a user</li>
+            <li>Add a function for deleting a user</li>
+            <li>Make the list of users sortable by name or by email address</li>
+            <li>Make the list of users filterable by name or by email address or both</li>
+        </ol>
+        <br/>
+        <ul>
+        <li>Get all users from /api/users<br/>
+            <li>Create a new user by posting to /api/users</li>
+            <li>Get user by getting /api/users/:userId</li>
+            <li>Delete user by deleting /api/users/:userId</li>
+            <li>Update user by putting /api/users/:userId</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

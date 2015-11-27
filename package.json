@@ -4,6 +4,8 @@
   "description": "",
   "main": "server.js",
   "author": "Espen Holmen",
+  "license": "MIT",
+  "repository": "https://github.com/EspenHolmen/angularCodingTest",
   "dependencies": {
     "body-parser": "~1.4.3",
     "express": "~4.6.1",
