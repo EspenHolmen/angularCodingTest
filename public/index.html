@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Angular Coding Test</title>
-    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/angular-toastr/dist/angular-toastr.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bower_components/angular-toastr/dist/angular-toastr.min.css">
     <style>
         body {
             padding-top: 50px;
         }
     </style>
-
+    <!-- You can specify /bower_components in your path, but you don't have to-->
     <script src="/angular/angular.min.js"></script>
     <script src="/angular-animate/angular-animate.min.js"></script>
     <script src="/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
@@ -37,7 +37,7 @@
         </ol>
         <br/>
         <ul>
-        <li>Get all users from /api/users<br/>
+            <li>Get all users from /api/users<br/>
             <li>Create a new user by posting to /api/users</li>
             <li>Get user by getting /api/users/:userId</li>
             <li>Delete user by deleting /api/users/:userId</li>
